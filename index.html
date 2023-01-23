@@ -30,29 +30,29 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav font-poppins mx-auto mb-2 mb-lg-0">
             <li class="nav-item mx-4">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item mx-4">
               <a class="nav-link" href="#"
-                >Services <i class="fa-solid fa-angle-right"></i>
+                >Services <i class="fa-solid fa-angle-right d-inline"></i>
               </a>
             </li>
 
             <li class="nav-item mx-4">
               <a class="nav-link"
-                >Cases <i class="fa-solid fa-angle-right"></i>
+                >Cases <i class="fa-solid fa-angle-right d-inline"></i>
               </a>
             </li>
             <li class="nav-item mx-4">
               <a class="nav-link"
-                >Blog <i class="fa-solid fa-angle-right"></i>
+                >Blog <i class="fa-solid fa-angle-right d-inline"></i>
               </a>
             </li>
             <li class="nav-item mx-4">
               <a class="nav-link"
-                >Contact Us <i class="fa-solid fa-angle-right"></i>
+                >Contact Us <i class="fa-solid fa-angle-right d-inline"></i>
               </a>
             </li>
           </ul>
@@ -60,7 +60,7 @@
           <!-- Button trigger modal -->
           <button
             type="button"
-            class="btn btn-primary px-4 py-2"
+            class="btn btn-primary font-poppins px-4 py-2"
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
           >
@@ -69,7 +69,7 @@
 
           <!-- Modal -->
           <div
-            class="modal fade"
+            class="modal font-poppins fade"
             id="exampleModal"
             tabindex="-1"
             aria-labelledby="exampleModalLabel"
@@ -119,6 +119,27 @@
         </div>
       </div>
     </nav>
+
+    <!-- Banner section -->
+    <section class="container mx-auto">
+      <div id="carouselExampleCaptions" class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/banner.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption  d-md-block">
+              <h1 class="display-1 font-eb">We Provide Effective <br> Legal Solutions</h1>
+              <p class="font-poppins banner-description">
+                There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
+              </p>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- Bootstrap JS -->
     <script src="./js/bootstrap.js"></script>
