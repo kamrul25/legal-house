@@ -122,23 +122,26 @@
 
     <!-- Banner section -->
     <section class="container mx-auto">
-      <div id="carouselExampleCaptions" class="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./images/banner.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption  d-md-block">
-              <h1 class="display-1 font-eb">We Provide Effective <br> Legal Solutions</h1>
-              <p class="font-poppins banner-description">
-                There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.
-              </p>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-primary" type="submit">Search</button>
-              </form>
+        <div class="card text-bg-dark">
+            <img src="./images/banner.png" class="card-img banner-gradient" alt="...">
+            <div class="card-img-overlay d-none d-lg-block ">
+                <div class="container  mx-auto text-center mt-5 pt-5 ">
+                    <h5 class="display-1 text-light font-eb ">We Provide Effective <br> Legal Solutions</h5>
+                    <p class="font-poppins text-center banner-description my-4">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p> 
+                    <div>
+                        <input type="search" name="" id="" placeholder="Search your services" class="container mx-auto bg-secondary text-secondary fs-6 font-poppins ps-5 py-2 w-25 border-0 rounded-2">
+                    <button class="btn btn-primary mx-3 px-3 font-poppins">Search</button>
+                    </div>
+                </div>
             </div>
           </div>
-        </div>
-      </div>
+          <div class="container  mx-auto text-center  mt-4 d-block d-lg-none ">
+            <h5 class="display-3 text-primary font-eb ">We Provide Effective <br> Legal Solutions</h5>
+            <p class="font-poppins text-center text-secondary my-4">There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p> 
+            <div class="d-flex flex-column justify-content-center align-items-center g-3">
+                <input type="search" name="" id="" placeholder="Search your services" class="container mx-auto bg-secondary text-secondary fs-6 font-poppins text-center py-2 w-75 border-0 rounded-2">
+            <button class="btn btn-primary mt-3 mx-3 px-3 font-poppins">Search</button>
+            </div>
     </section>
 
     <!-- Practice section -->
@@ -299,6 +302,75 @@
                 </div>
               </div>
         </div>
+    </section>
+    <!-- Contact section -->
+    <section class="container mx-auto my-5">
+        <div class="text-center">
+            <h1>Contact With Us</h1>
+            <p>There are many variations of passages of lorem lpsum available, but the majority have <br>suffered alteration in some form, by injected humour </p>
+        </div>
+    <div class="d-md-flex justify-content-center align-items-center gx-5">
+        <div>
+        <!-- contact card -->
+        <div class="card-group">
+            <div class="card">
+                <img src="./images/address.png" class="card-img-top w-25 mx-auto my-5" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title font-eb text-center fw-bold my-5">Address</h5>
+                  <p class="text-center text-secondary fs-6 ">
+                      <span class="mb-5">A108 Adam Street,
+                    </span> <br>
+                      <span>New York, NY 53502</span>
+                  </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/call.png" class="card-img-top w-25 mx-auto my-5" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-eb text-center fw-bold my-5">Call Us</h5>
+                <p class="text-center text-secondary fs-6 ">
+                    <span class="mb-5"> +8801750 00 00 00</span> <br>
+                    <span>+8801750 00 00 00</span>
+                </p>
+           
+              </div>
+            </div>
+        </div>
+        <div class="card-group">
+            <div class="card">
+              <img src="./images/email.png" class="card-img-top w-25 mx-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-eb text-center fw-bold my-5">Email Us </h5>
+                <p class="text-center text-secondary fs-6 ">
+                  <span class="mb-5"> info@gmail.com</span> <br>
+                   <span>info@gmail.com</span>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/time.png" class="card-img-top w-25 mx-auto" alt="...">
+              <div class="card-body">
+                <h5 class="card-title font-eb text-center fw-bold my-5">Working Hours</h5>
+                 <p class="text-center text-secondary fs-6 ">
+                   <span class="mb-5"> Mon-Fri: 9AM to 5PM</span> <br>
+                    <span>Sunday: 9AM to 1 PM</span>
+                 </p>
+              
+              </div>
+            </div>
+        </div>
+    </div>
+        <!-- contact form -->
+        <div>
+            <form action="">
+                <input type="text" placeholder="Your Name " class="w-100 text-secondary ps-5 py-3 bg-primary mb-3">
+                <input type="email" placeholder="Your Email " class="w-100 text-secondary ps-5 py-3 bg-primary mb-3">
+                <input type="text" placeholder="Subject " class="w-100 text-secondary ps-5 py-3 bg-primary mb-3">
+                <input type="text" placeholder="Your Message " class="w-100 h-50 text-secondary ps-5 pt-3 bg-primary mb-3">
+                <button class="btn btn-primary w-100">Send Message</button>
+            </form>
+        </div>
+    </div>
     </section>
     <!-- Bootstrap JS -->
     <script src="./js/bootstrap.js"></script>
