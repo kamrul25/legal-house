@@ -1,0 +1,14 @@
+/* fontFamily */
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap");
+
+.font-eb {
+  font-family: "EB Garamond", serif !important;
+}
+.font-poppins {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.banner-description{
+    opacity: 1;
+    color: #E7E7E7 !important;
+}
