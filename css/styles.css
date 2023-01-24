@@ -52,7 +52,7 @@
         height: 80vh  !important;
     }
     .carousel-caption {
-        bottom:3rem !important;
+        bottom:0 !important;
     }
 
 }
@@ -67,9 +67,12 @@
         height: 60vh  !important;
     }
     .carousel-caption {
-        bottom:3rem !important;
+        bottom:0 !important;
     }
-    .carousel-caption-img{
-      display: none;
-    }
+}
+.accordion-button::after{
+    content: '\2212' !important;
+}
+.accordion-button.collapsed::after{
+    content: '\002B' !important;
 }
