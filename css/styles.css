@@ -69,6 +69,9 @@
     .carousel-caption {
         bottom:0 !important;
     }
+    .carousel-caption img{
+        display: none;
+    }
 }
 .accordion-button::after{
     content: '\2212' !important;
